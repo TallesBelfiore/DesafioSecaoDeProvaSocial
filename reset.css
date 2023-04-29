@@ -1,0 +1,14 @@
+@font-face {
+    font-family: League Spartan;
+    src: url(.//League_Spartan/static/LeagueSpartan-Black.ttf);
+}
+html{
+    font-size: 62.5%; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}

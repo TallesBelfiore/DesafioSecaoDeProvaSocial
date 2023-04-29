@@ -1,0 +1,158 @@
+.cima{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.top-left{
+    text-align: left;
+    width: 30vw;
+}
+.top-left h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(107, 37, 107);
+    padding-bottom: 20px;
+}
+.top-left p{
+    font-size: 1.5rem;
+    color: rgb(107, 37, 107);
+}
+
+.top-right{
+    margin-bottom: 10%;
+}
+
+.top-right .estrelas{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    background-color: rgb(241, 220, 241);
+    padding: 10px;
+    border: 2px solid  rgb(241, 220, 241);
+    border-radius: 5px;
+    color: rgb(107, 37, 107);
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.top-right .estrelas.primeira{
+    margin-left: -70px;
+}
+.top-right .estrelas.segundo{
+    margin-left: -30px;
+}
+.top-right .estrelas p {
+    color: rgb(233, 169, 50);
+    padding-left: 10px;
+}
+
+
+.comentario{
+    margin-left: 50px;
+}
+.usuario{
+    display:block;
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid rgb(107, 37, 107);
+    background-color: rgb(107, 37, 107);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+}
+.usuario .perfil{
+    display: flex;
+    align-items: center;
+}
+
+.usuario h1{
+    font-size: 1.7rem;
+}
+.usuario h2{
+    color: rgb(201, 84, 133);
+    font-size: 1.7rem;
+}
+
+.usuario img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.usuario.primeiro{
+    margin-top: 30px;  
+}
+.usuario.segundo{
+    margin-top: -28vh;
+    margin-left: 30.5vw;
+    
+}
+.usuario.terceiro{
+    margin-top:-28vh;
+    margin-left: 61vw;
+}
+/***************************** RESPONSiVO ************************************/
+@media (max-width: 734px){
+    .cima{
+        display: block;
+    }
+    .top-left{
+        text-align: center;
+        width: 100%;
+    }
+    .top-left h1{
+      font-size: 2.8rem;
+    }
+    .top-left p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 40px;
+      }
+      .top-right .estrelas{
+        width: 100%;
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+      }
+      .top-right .estrelas.primeira{
+        margin-left: 0px;
+    }
+    .top-right .estrelas.segundo{
+        margin-left: 0px;
+    }
+    .top-right .estrelas.terceiro{
+        margin-left: 0px;
+    }
+    .comentario{
+        display: block;
+        margin: 50px;
+    }
+    .comentario .usuario{
+        width: 100%;
+        margin-bottom:  15px;
+    }
+    
+
+    .usuario{
+        height: 30%;
+    }
+    .usuario.primeiro{
+        margin-top: 0px;  
+    }
+    .usuario.segundo{
+        margin-top: 0vh;
+        margin-left: 0vw;
+        
+    }
+    .usuario.terceiro{
+        margin-top:0vh;
+        margin-left: 0vw;
+    }
+}
